@@ -1,12 +1,12 @@
 package se.lexicon;
 
+import java.lang.String;
 import java.time.*;
 import java.time.format.DateTimeFormatter;
 import java.util.Locale;
 
-public class DateTime{
-
-    public static void main(String[] args) {
+public class DateTime {
+    static void main() {
 
         // 1. CURRENT DATE
         LocalDate today = LocalDate.now();
